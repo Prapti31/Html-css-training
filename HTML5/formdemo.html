@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Name: <input type="text" required/>
+        <br>
+        password: <input type="password" required/>
+        <br>
+        email: <input type="email" required/>
+        Age: <input type="number" min="10" max="80" step="3"/>
+        DOB: <input type="date"/>
+        Range: <input type="range"/>
+        Time: <input type="time"/>
+        DateTime: <input type="datetime"/>
+        Month: <input type="month"/>
+        Week: <input type="week"/>
+        color: <input type="color"/>
+        <input list="browser" name="browser"/>
+        <datalist id='browser'>
+            <option value="Internet Explorer"></option>
+            <option value="Firefox"></option>
+            <option value="Opera"></option>
+        </datalist>
+        <button>add</button>
+    </form>
+</body>
+</html>

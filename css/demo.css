@@ -1,0 +1,49 @@
+h1{
+    color: blue;
+}
+p.p1{
+    color:gray;
+    background-color:hsla(9,100%,64%,0.5);
+    border-style:solid;
+    border: 6px solid purple;
+}
+
+#div-container{
+    border-radius: 25px 40px 10px;
+    background: rgb(56, 28, 18);
+    
+    padding: 20px;
+    width: 200px;
+    height: 140px;
+    
+    
+}
+#div-container2{
+    height: 150px;
+    background-image: conic-gradient(red,purple,yellow);
+}
+#div-container3{
+    border-radius: 25px;
+    
+    box-shadow: 10px 10px 5px lightskyblue;
+    position:relative;
+    animation-name:app;
+    animation-duration: 5s;
+    padding: 20px;
+    width: 200px;
+    height: 140px;
+    
+}
+
+.para_2{
+    color: aqua;
+    font-family: monospace;
+    background-color: purple;
+}
+@keyframes app{
+    0%{background-color:purple;left:0px;top:0px}
+    25%{background-color:pink;left:0px;top:200px}
+    50%{background-color:red;left:200px;top:200px}
+    75%{background-color:cornflowerblue;left:0px;top:200px}
+    100%{background-color:purple;left:0px;top:0px}
+}
